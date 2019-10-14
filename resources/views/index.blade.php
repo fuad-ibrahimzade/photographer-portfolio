@@ -11,12 +11,15 @@
         <meta name="api-token" content="{{ Auth::user()->api_token }}">
     @endauth
 
-    <title>Outlet for SPA</title>
+    <title>Photografolio</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+
+    {{--<noscript><meta http-equiv="refresh" content="0; URL={{url('badbrowser')}}"></noscript>--}}
+    <noscript>Please Enable JavaScript and refresh in order to view page.</noscript>
 </head>
 <body>
 <div id="app">
